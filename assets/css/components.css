@@ -1,0 +1,51 @@
+.filter-invert {
+  filter: invert(1);
+}
+
+.wrapper {
+  @apply w-full px-4;
+}
+
+.fade-button {
+  @apply rounded border-2 no-underline transition duration-200;
+}
+
+.fade-button:hover {
+  @apply text-white;
+}
+
+.fade-button:hover img {
+  @apply filter-invert;
+}
+
+.fade {
+  animation: 0.75s appear;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+}
+
+.force-16 {
+  min-width: 64px !important;
+  width: 64px !important;
+  min-height: 64px !important;
+  height: 64px !important;
+}
+.force-32 {
+  min-width: 128px !important;
+  width: 128px !important;
+  min-height: 128px !important;
+  height: 128px !important;
+}
+
+.font-heading {
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.heading {
+  @apply text-gray-700 font-heading font-medium tracking-wide;
+}

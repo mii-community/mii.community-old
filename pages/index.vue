@@ -1,70 +1,93 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">mii.community</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div class="wrapper">
+    <main class="mt-4 mb-12 fade">
+      <div class="fade flex justify-center">
+        <img
+          src="~/assets/img/socialmedia.svg"
+          alt="ソーシャルメディアを表すイラスト"
+          class="force-32"
+        />
       </div>
-    </div>
+      <div id="links" class="container mx-auto">
+        <ul class="lg:w-1/2 lg:mx-auto xs:max-w-xl space-y-2">
+          <li v-for="link in links" :key="link.url">
+            <a
+              :href="link.url"
+              target="_blank"
+              ref="noopener noreferrer"
+              :class="`shadow-md flex items-center fade-button py-3 text-black border-${link.color} hover:bg-${link.color}`"
+            >
+              <div class="w-1/3 flex justify-center">
+                <img
+                  class="h-10 w-auto"
+                  :src="require(`~/assets/img/${link.img}.svg`)"
+                  :alt="link.alt"
+                />
+              </div>
+              <span
+                class="flex items-center text-lg font-medium tracking-wide"
+                >{{ link.text }}</span
+              >
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+interface Link {
+  url: string
+  img: string
+  alt: string
+  text: string
+  color: string
+}
 
-export default Vue.extend({})
+const links: Link[] = [
+  {
+    url: 'https://discord.gg/Jqsd7VcDur',
+    img: 'icon-discord',
+    alt: 'icon discord',
+    text: 'Join Our Place',
+    color: 'indigo-600',
+  },
+  {
+    url: 'https://github.com/mii-community',
+    img: 'icon-github',
+    alt: 'icon github',
+    text: 'Read Our Codes',
+    color: 'gray-900',
+  },
+  {
+    url: 'https://twitter.com/i/lists/1293148576634114049',
+    img: 'icon-twitter',
+    alt: 'icon twitter',
+    text: 'See Our Tweets',
+    color: 'blue-500',
+  },
+  {
+    url:
+      'https://open.spotify.com/playlist/0nS5HXPdDe3RBGHshYpOp4?si=9L3X88gjQlK99KRDyDrdEA',
+    img: 'icon-spotify',
+    alt: 'icon spotify',
+    text: 'Hear Our Favorites',
+    color: 'green-700',
+  },
+  {
+    url:
+      'https://calendar.google.com/calendar/u/1?cid=N25mZW1hc3Z2OXBncjJlbmVtOGw0MDVmZmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ',
+    img: 'icon-calendar',
+    alt: 'icon calendar',
+    text: 'Check Our Events',
+    color: 'blue-600',
+  },
+]
+
+export default {
+  data() {
+    return { links }
+  },
+}
 </script>
-
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
