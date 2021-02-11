@@ -3,7 +3,7 @@
 }
 
 .wrapper {
-  @apply w-full px-4;
+  @apply w-full p-4;
 }
 
 .fade-button {

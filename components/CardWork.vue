@@ -1,5 +1,5 @@
 <template>
-  <ul class="lg:w-1/2 xs:max-w-xl">
+  <ul class="md:max-w-screen-sm">
     <li
       v-for="(work, index) in works"
       :key="index"

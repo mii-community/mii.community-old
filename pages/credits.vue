@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <main class="container mx-auto">
+    <main class="container">
       <div class="flex">
         <h1 class="heading text-5xl">Credits</h1>
         <img
@@ -10,7 +10,7 @@
         />
       </div>
 
-      <div class="container fade mt-6">
+      <div class="fade mt-6">
         <h2 id="Donators" class="heading text-2xl mt-2 mb-3">Donators</h2>
         <card-donator></card-donator>
         <h2 id="Contributors" class="heading text-2xl mt-6 mb-3">

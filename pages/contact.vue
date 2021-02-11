@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <main class="container mx-auto">
+    <main class="container">
       <div class="flex">
         <h1 class="heading text-5xl">Contact</h1>
         <img
@@ -12,7 +12,7 @@
 
       <div class="container fade">
         <h2 class="heading my-6">升田 天珠, Tenzyu Masuda</h2>
-        <ul class="space-y-2 lg:w-1/2 xs:max-w-xl">
+        <ul class="space-y-2 sm:max-w-screen-sm">
           <li v-for="connect in connects" :key="connect.url">
             <a
               :href="connect.url"

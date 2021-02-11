@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <main class="mt-4 mb-12 fade">
+    <main class="fade">
       <div class="fade flex justify-center">
         <img
           src="~/assets/img/socialmedia.svg"
@@ -8,8 +8,8 @@
           class="force-32"
         />
       </div>
-      <div id="links" class="container mx-auto">
-        <ul class="lg:w-1/2 lg:mx-auto xs:max-w-xl space-y-2">
+      <div id="links" class="sm:max-w-screen-sm mx-auto">
+        <ul class="space-y-2">
           <li v-for="link in links" :key="link.url">
             <a
               :href="link.url"
@@ -24,10 +24,9 @@
                   :alt="link.alt"
                 />
               </div>
-              <span
-                class="flex items-center text-lg font-medium tracking-wide"
-                >{{ link.text }}</span
-              >
+              <span class="flex items-center text-lg font-medium tracking-wide">
+                {{ link.text }}
+              </span>
             </a>
           </li>
         </ul>

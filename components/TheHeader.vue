@@ -1,6 +1,6 @@
 <template>
   <header
-    class="mb-4 h-16 flex justify-around sticky top-0 left-0 z-50 opacity-80 bg-white border-b"
+    class="h-16 flex justify-around sticky top-0 left-0 z-50 opacity-75 bg-white border-b shadow"
   >
     <h1 class="my-auto text-lg">
       <nuxt-link to="/">Mii</nuxt-link>

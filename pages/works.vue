@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <main class="container mx-auto">
+    <main class="container">
       <div class="flex">
         <h1 class="heading text-5xl">Works</h1>
         <img
