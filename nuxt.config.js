@@ -92,6 +92,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    '@nuxtjs/redirect-module',
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -101,6 +102,14 @@ export default {
       name: 'みぃ',
     },
   },
+
+  redirect: [
+    {
+      from: '^(\\/[^\\?]*[^\\/])(\\?.*)?$',
+      to: '$1/$2',
+      statusCode: 301,
+    },
+  ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
