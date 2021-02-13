@@ -58,7 +58,7 @@ export default {
           return e ? `${e} - みぃコミュニティ` : 'みぃコミュニティ'
         },
       },
-      { hid: 'og:url', property: 'og:url', content: 'https://mii.community' },
+      { hid: 'og:url', property: 'og:url', content: 'https://mii.community/' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { name: 'twitter:card', content: 'summary' },
       { name: 'twitter:site', content: '@tenzyumasuda' },
@@ -104,4 +104,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  router: {
+    trailingSlash: true,
+  },
 }

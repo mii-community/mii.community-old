@@ -22,9 +22,9 @@ interface Nav {
 }
 
 const navs: Nav[] = [
-  { url: '/credits', text: 'Credits' },
-  { url: '/works', text: 'Works' },
-  { url: '/contact', text: 'Contact' },
+  { url: '/credits/', text: 'Credits' },
+  { url: '/works/', text: 'Works' },
+  { url: '/contact/', text: 'Contact' },
 ]
 
 export default {
