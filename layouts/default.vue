@@ -1,9 +1,9 @@
 <template>
   <div class="bgWrapper" ontouchstart="">
     <the-header></the-header>
-    <main class="min-height md:max-w-screen-md md:mx-auto">
+    <div class="min-height md:max-w-screen-md md:mx-auto">
       <Nuxt />
-    </main>
+    </div>
     <the-footer></the-footer>
   </div>
 </template>
