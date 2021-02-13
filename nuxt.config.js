@@ -98,6 +98,7 @@ export default {
   pwa: {
     manifest: {
       lang: 'ja',
+      name: 'みぃ',
     },
   },
 
