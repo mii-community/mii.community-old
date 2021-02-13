@@ -93,6 +93,7 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     '@nuxtjs/redirect-module',
+    '@nuxtjs/sitemap',
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -110,6 +111,13 @@ export default {
       statusCode: 301,
     },
   ],
+
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://mii.community/',
+    trailingSlash: true,
+    exclude: ['/for-ignore-purgecss/'],
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
