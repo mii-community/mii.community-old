@@ -15,9 +15,9 @@
         <ul class="space-y-2 sm:max-w-screen-sm">
           <li v-for="connect in connects" :key="connect.url">
             <a
-              :href="connect.url"
               target="_blank"
-              ref="noopener noreferrer"
+              rel="noopener noreferrer"
+              :href="connect.url"
               :class="`shadow-md flex items-center fade-button py-3 text-black border-${connect.color} hover:bg-${connect.color}`"
             >
               <div class="w-1/3 flex justify-center">

@@ -6,9 +6,9 @@
       class="hover:opacity-50 transition duration-200"
     >
       <a
-        :href="work.url"
         target="_blank"
-        ref="noopener noreferrer"
+        rel="noopener noreferrer"
+        :href="work.url"
         class="h-32 w-full flex rounded-lg border border-gray-800 shadow-md"
       >
         <div class="force-32 border-r border-gray-800">

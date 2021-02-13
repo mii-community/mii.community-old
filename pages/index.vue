@@ -12,9 +12,9 @@
         <ul class="space-y-2">
           <li v-for="link in links" :key="link.url">
             <a
-              :href="link.url"
               target="_blank"
-              ref="noopener noreferrer"
+              rel="noopener noreferrer"
+              :href="link.url"
               :class="`shadow-md flex items-center fade-button py-3 text-black border-${link.color} hover:bg-${link.color}`"
             >
               <div class="w-1/3 flex justify-center">
