@@ -8,6 +8,21 @@
   </div>
 </template>
 
+<script>
+export default {
+  head() {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: `https://mii.community${this.$route.path}`,
+        },
+      ],
+    }
+  },
+}
+</script>
+
 <style scoped>
 .bgWrapper {
   background-color: #f7f8fb;
