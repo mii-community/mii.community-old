@@ -16,7 +16,7 @@ export default {
         {
           hid: 'apple-mobile-web-app-title',
           name: 'apple-mobile-web-app-title',
-          content: this.metaCurrentPage,
+          content: this.metaCurrentPage.title,
         },
         {
           hid: 'description',
