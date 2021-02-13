@@ -28,7 +28,7 @@
           </div>
           <div>
             <h3
-              class="h-8 text-gray-600 text-sm flex justify-end right-align pr-2"
+              class="h-8 text-gray-700 text-sm flex justify-end right-align pr-2"
             >
               by {{ work.author }}
             </h3>
