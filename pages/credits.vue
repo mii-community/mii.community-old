@@ -31,3 +31,22 @@
     </main>
   </div>
 </template>
+
+<script lang="ts">
+import { MetaType } from '~/utils/types'
+import MetaCurrentPage from '~/utils/meta'
+
+const metaCurrentPage: MetaType = {
+  title: 'Credits',
+  description: '寄付や貢献などをしてくれた方を載せているページです。',
+  url: 'https://mii.community/credits/',
+  type: 'website',
+}
+
+export default {
+  mixins: [MetaCurrentPage],
+  data() {
+    return { metaCurrentPage }
+  },
+}
+</script>

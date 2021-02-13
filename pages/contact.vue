@@ -71,10 +71,20 @@ const connects: Connect[] = [
     color: 'blue-700',
   },
 ]
+import { MetaType } from '~/utils/types'
+import MetaCurrentPage from '~/utils/meta'
+
+const metaCurrentPage: MetaType = {
+  title: 'Contact',
+  description: '管理人への連絡先を纏めているページです。',
+  url: 'https://mii.community/contact/',
+  type: 'website',
+}
 
 export default {
+  mixins: [MetaCurrentPage],
   data() {
-    return { connects }
+    return { connects, metaCurrentPage }
   },
 }
 </script>
