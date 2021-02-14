@@ -3,7 +3,7 @@
     class="h-32 flex items-center justify-center bg-white border-t text-sm"
   >
     <div>
-      <div id="more">
+      <div>
         <p class="flex">
           このサイトの問題を見つけた場合は
           <a
@@ -19,9 +19,10 @@
           </a>
           へ。
         </p>
+        <p class="font-thin text-center py-1">みぃコミュニティ</p>
       </div>
-      <div id="copyright" class="font-thin py-4 text-center">
-        <p>© 2021 Tenzyu Masuda</p>
+      <div id="copyright" class="font-thin text-center">
+        <small class="text-sm">© 2021 Tenzyu Masuda</small>
       </div>
     </div>
   </footer>
