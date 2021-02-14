@@ -26,7 +26,7 @@
         <ul class="flex justify-center">
           <li class="p-2" v-for="page in my_site_maps" :key="page.text">
             <nuxt-link :to="page.to">
-              <p class="text-blue-600">{{ page.text }}</p>
+              <p class="text-blue-700">{{ page.text }}</p>
             </nuxt-link>
           </li>
         </ul>

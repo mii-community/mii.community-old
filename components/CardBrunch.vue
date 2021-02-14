@@ -11,7 +11,7 @@
         :href="`https://${subdomain.sub}.mii.community/`"
       >
         <div class="flex my-auto font-bold text-lg">
-          <h3 class="text-blue-600">
+          <h3 class="text-blue-700">
             https://{{ subdomain.sub }}.mii.community/
           </h3>
         </div>
