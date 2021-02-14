@@ -8,7 +8,9 @@
           このサイトの問題を見つけた場合は
           <a
             class="text-blue-700 flex items-center"
-            href="https://github.com/tenzyu"
+            href="https://github.com/mii-community/mii.community/issues"
+            rel="noopener nornoreferrer"
+            target="_blank"
           >
             <img
               class="w-4 h-4"
