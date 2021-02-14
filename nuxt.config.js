@@ -12,8 +12,8 @@ export default {
       prefix: 'og: http://ogp.me/ns#',
     },
     title: '',
-    titleTemplate: (titleChunk) => {
-      return titleChunk ? `${titleChunk} - みぃ` : 'みぃコミュニティ'
+    titleTemplate: (e) => {
+      return e ? `${e} - みぃ` : 'みぃコミュニティ'
     },
     meta: [
       { charset: 'utf-8' },
