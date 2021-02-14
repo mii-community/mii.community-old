@@ -13,7 +13,7 @@ export default {
     },
     title: '',
     titleTemplate: (titleChunk) => {
-      return titleChunk ? `${titleChunk} - みぃ` : 'みぃ'
+      return titleChunk ? `${titleChunk} - みぃ` : 'みぃコミュニティ'
     },
     meta: [
       { charset: 'utf-8' },
@@ -23,7 +23,7 @@ export default {
         property: 'og:title',
         content: '',
         template: (e) => {
-          return e ? `${e} - みぃ` : 'みぃ'
+          return e ? `${e} - みぃ` : 'みぃコミュニティ'
         },
       },
       {
@@ -31,7 +31,7 @@ export default {
         property: 'og:site_name',
         content: '',
         template: (e) => {
-          return e ? `${e} - みぃ` : 'みぃ'
+          return e ? `${e} - みぃ` : 'みぃコミュニティ'
         },
       },
       {
@@ -39,7 +39,7 @@ export default {
         name: 'apple-mobile-web-app-title',
         content: '',
         template: (e) => {
-          return e ? `${e} - みぃ` : 'みぃ'
+          return e ? `${e} - みぃ` : 'みぃコミュニティ'
         },
       },
       {
