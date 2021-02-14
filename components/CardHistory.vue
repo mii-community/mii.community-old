@@ -5,9 +5,9 @@
         <span>-</span>
         <h3 class="ml-2 text-gray-900">{{ history.date }}</h3>
       </div>
-      <div v-for="value in history.values" :key="value" class="text-gray-800">
+      <h4 v-for="value in history.values" :key="value" class="text-gray-800">
         {{ value }}
-      </div>
+      </h4>
       <div
         v-if="index != histories.length - 1"
         key="not-last-child-history"
