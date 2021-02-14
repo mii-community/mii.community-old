@@ -21,7 +21,15 @@
           </a>
           へ。
         </p>
-        <p class="font-thin text-center py-1">みぃコミュニティ</p>
+      </div>
+      <div>
+        <ul class="flex justify-center">
+          <li class="p-2" v-for="page in my_site_maps" :key="page.text">
+            <nuxt-link :to="page.to">
+              <p class="text-blue-600">{{ page.text }}</p>
+            </nuxt-link>
+          </li>
+        </ul>
       </div>
       <div id="copyright" class="font-thin text-center">
         <small class="text-sm">© 2021 Tenzyu Masuda</small>
@@ -29,3 +37,23 @@
     </div>
   </footer>
 </template>
+
+<script lang="ts">
+interface mySiteMap {
+  to: string
+  text: string
+}
+
+const my_site_maps: mySiteMap[] = [
+  { to: '/credits/', text: 'credits' },
+  { to: '/works/', text: 'works' },
+  { to: '/history/', text: 'history' },
+  { to: '/brunches/', text: 'brunches' },
+]
+
+export default {
+  data() {
+    return { my_site_maps }
+  },
+}
+</script>
