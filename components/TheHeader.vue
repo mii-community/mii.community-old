@@ -8,7 +8,7 @@
     <nav class="my-auto w-2/3 sm:w-1/2">
       <ul class="flex justify-around text-xs">
         <li v-for="nav in navs" :key="nav.text">
-          <nuxt-link :to="nav.url" class="p-5 md:text-md">{{
+          <nuxt-link :to="nav.url" class="py-5 md:text-md">{{
             nav.text
           }}</nuxt-link>
         </li>
@@ -27,6 +27,7 @@ const navs: Nav[] = [
   { url: '/credits/', text: 'Credits' },
   { url: '/works/', text: 'Works' },
   { url: '/contact/', text: 'Contact' },
+  { url: '/history/', text: 'History' },
 ]
 
 export default {
