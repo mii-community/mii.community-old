@@ -15,7 +15,7 @@
             <img
               class="w-4 h-4"
               src="~/assets/img/icon-github.svg"
-              alt="GitHubのロゴ"
+              alt="GitHubの白黒の丸型アイコン"
             />
             こちら
           </a>

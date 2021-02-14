@@ -6,7 +6,7 @@
         <img
           class="force-16 md:force-32 my-auto ml-4"
           src="~/assets/img/mention.svg"
-          alt="メンションを表すイラスト"
+          alt="メンションを表しているイラスト"
         />
       </div>
 
@@ -52,21 +52,21 @@ const connects: Connect[] = [
   {
     url: 'https://twitter.com/tenzyumasuda',
     img: 'icon-twitter',
-    alt: 'icon twitter',
+    alt: 'Twitterの白黒の丸型アイコン',
     text: 'Twitter',
     color: 'blue-600',
   },
   {
     url: 'https://instagram.com/tenzyumasuda',
     img: 'icon-instagram',
-    alt: 'icon instagram',
+    alt: 'Istagramの白黒の丸型アイコン',
     text: 'Instagram',
     color: 'pink-600',
   },
   {
     url: 'https://www.paypal.me/masudatenzyu',
     img: 'icon-paypal',
-    alt: 'icon paypal',
+    alt: 'PayPalの白黒の丸型アイコン',
     text: 'PayPal (Donate)',
     color: 'blue-700',
   },

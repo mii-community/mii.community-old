@@ -6,7 +6,7 @@
         <img
           class="force-16 md:force-32 my-auto ml-4"
           src="~/assets/img/team.svg"
-          alt="メンバーを表すイラスト"
+          alt="集団、チームを表しているイラスト"
         />
       </div>
 

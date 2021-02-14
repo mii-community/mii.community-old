@@ -14,7 +14,7 @@
         <div class="force-32 border-r border-gray-800">
           <img
             :src="require(`~/assets/img/works/${work.img}`)"
-            :alt="work.img"
+            :alt="work.alt"
           />
         </div>
         <div class="w-full relative">
@@ -46,6 +46,7 @@ interface Work {
   description: string
   author: string
   url: string
+  alt: string
 }
 
 const works: Work[] = [
@@ -55,6 +56,7 @@ const works: Work[] = [
     description: '　最高のUXを求め続ける15パズルのウェブアプリ。',
     author: 'HiraginoYuki',
     url: 'https://15-puzzle.app',
+    alt: 'HiraginoYukiが作った15パズルのウェブアプリのアイコン',
   },
 ]
 

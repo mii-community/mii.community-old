@@ -4,7 +4,7 @@
       <div class="fade flex justify-center">
         <img
           src="~/assets/img/socialmedia.svg"
-          alt="ソーシャルメディアを表すイラスト"
+          alt="ソーシャルメディアを表しているイラスト"
           class="force-32"
         />
       </div>
@@ -48,21 +48,21 @@ const links: Link[] = [
   {
     url: 'https://discord.gg/Jqsd7VcDur',
     img: 'icon-discord',
-    alt: 'icon discord',
+    alt: 'Discordの白黒の丸型アイコン',
     text: 'Join Our Place',
     color: 'indigo-600',
   },
   {
     url: 'https://github.com/mii-community',
     img: 'icon-github',
-    alt: 'icon github',
+    alt: 'GitHubの白黒の丸型アイコン',
     text: 'Read Our Codes',
     color: 'gray-900',
   },
   {
     url: 'https://twitter.com/i/lists/1293148576634114049',
     img: 'icon-twitter',
-    alt: 'icon twitter',
+    alt: 'Twitterの白黒の丸型アイコン',
     text: 'See Our Tweets',
     color: 'blue-500',
   },
@@ -70,7 +70,7 @@ const links: Link[] = [
     url:
       'https://open.spotify.com/playlist/0nS5HXPdDe3RBGHshYpOp4?si=9L3X88gjQlK99KRDyDrdEA',
     img: 'icon-spotify',
-    alt: 'icon spotify',
+    alt: 'Spotifyの白黒の丸型アイコン',
     text: 'Hear Our Favorites',
     color: 'green-700',
   },
@@ -78,7 +78,7 @@ const links: Link[] = [
     url:
       'https://calendar.google.com/calendar/u/1?cid=N25mZW1hc3Z2OXBncjJlbmVtOGw0MDVmZmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ',
     img: 'icon-calendar',
-    alt: 'icon calendar',
+    alt: 'カレンダーの白黒の丸型アイコン',
     text: 'Check Our Events',
     color: 'blue-600',
   },
