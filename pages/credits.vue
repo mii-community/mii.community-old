@@ -19,11 +19,11 @@
         <card-contributor></card-contributor>
         <div class="mt-8 mb-4 pl-4 border-l-2 border-gray-600">
           <p>
-            Donatorsには、みぃコミュニティに寄付してくださった方の
+            Donatorsには、みぃコミュニティにまとまった金額を寄付してくださった方の
             名前と一言コメント を載せています。
           </p>
           <p>
-            Contributorsには、なんらかの形で貢献してくださった方の
+            Contributorsには、みぃコミュニティになんらかの形で貢献してくださった方の
             名前と貢献内容 を載せています。
           </p>
         </div>
