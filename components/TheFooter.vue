@@ -2,7 +2,7 @@
   <footer
     class="h-32 flex items-center justify-center bg-white border-t text-sm"
   >
-    <div>
+    <div class="leading-6 justify-center">
       <div>
         <p class="flex">
           このサイトの問題を見つけた場合は
@@ -24,13 +24,14 @@
       </div>
       <div>
         <ul class="flex justify-center">
-          <li class="p-2" v-for="page in my_site_maps" :key="page.text">
+          <li class="px-2" v-for="page in my_site_maps" :key="page.text">
             <nuxt-link :to="page.to">
               <p class="text-blue-700">{{ page.text }}</p>
             </nuxt-link>
           </li>
         </ul>
       </div>
+      <p class="text-center">みぃコミュニティ</p>
       <div id="copyright" class="font-thin text-center">
         <small class="text-sm">© 2021 Tenzyu Masuda</small>
       </div>
