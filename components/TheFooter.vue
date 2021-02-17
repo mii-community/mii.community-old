@@ -48,6 +48,7 @@ interface mySiteMap {
 const my_site_maps: mySiteMap[] = [
   { to: '/credits/', text: 'credits' },
   { to: '/works/', text: 'works' },
+  { to: '/contact/', text: 'contact' },
   { to: '/history/', text: 'history' },
   { to: '/brunches/', text: 'brunches' },
 ]
