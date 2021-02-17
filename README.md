@@ -1,8 +1,30 @@
-# mii.community
+# [mii.community](https://mii.community/)
 
 みぃコミュニティのウェブサイトです。
 
-<!-- 
+## Pages
+
+### [Credits](https://mii.community/credits/)
+
+寄付や貢献などをしてくれた方を載せているページです。
+
+### [Works](https://mii.community/works/)
+
+メンバーの作品の一部を載せているページです。
+
+### [Contact](https://mii.community/contact/)
+
+管理人への連絡先を纏めているページです。
+
+### [History](https://mii.community/history/)
+
+みぃコミュニティの来歴を載せているページです。
+
+### [Brunches](https://mii.community/brunches)
+
+みぃコミュニティのサブドメイン一覧を載せているページです。
+
+<!--
 ## Build Setup
 
 ```bash
