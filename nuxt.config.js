@@ -129,5 +129,12 @@ export default {
 
   router: {
     trailingSlash: true,
+    extendRoutes(routes, resolve) {
+      routes.push({
+        name: '404error',
+        path: '*',
+        component: resolve('~/pages/404.vue'),
+      })
+    },
   },
 }
