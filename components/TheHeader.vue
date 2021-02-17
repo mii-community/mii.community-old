@@ -10,14 +10,13 @@
       </h1>
 
       <button
-        v-if="isMobile"
         id="menu-toggle"
         class="p-5 focus:outline-none"
         v-on:click="flag = !flag"
       >
         MENU
       </button>
-      <nav v-else class="my-auto w-2/3 max-w-screen-md">
+      <nav id="nav-in-header" class="hidden my-auto w-2/3 max-w-screen-md">
         <ul class="flex justify-around text-sm">
           <li v-for="(nav, index) in navs" :key="index">
             <nuxt-link :to="nav.url" class="py-5">{{ nav.text }}</nuxt-link>
@@ -62,26 +61,17 @@ const navs: Nav[] = [
   { url: '/history/', text: 'History' },
   { url: '/brunches/', text: 'Brunches' },
 ]
-
+declare global {
+  interface Window {
+    windowWidth: number
+  }
+}
 export default {
   data() {
-    return { navs, flag: false, windowWidth: 900 }
-  },
-
-  mounted() {
-    this.windowWidth = window.innerWidth
-    this.$nextTick(() => {
-      window.addEventListener('resize', () => {
-        this.windowWidth = window.innerWidth
-      })
-    })
-  },
-
-  computed: {
-    isMobile(): boolean {
-      // @ts-ignore
-      return this.windowWidth < 1000
-    },
+    return {
+      navs,
+      flag: false,
+    }
   },
 }
 </script>
@@ -93,6 +83,15 @@ export default {
   &.open {
     opacity: 1;
     transform: translateX(0%);
+  }
+}
+
+@media (min-width: 1000px) {
+  #nav-in-header {
+    display: block;
+  }
+  #menu-toggle {
+    display: none;
   }
 }
 </style>
