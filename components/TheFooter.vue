@@ -51,6 +51,7 @@ const my_site_maps: mySiteMap[] = [
   { to: '/contact/', text: 'contact' },
   { to: '/history/', text: 'history' },
   { to: '/brunches/', text: 'brunches' },
+  { to: '/dictionary/', text: 'dictionary' },
 ]
 
 export default {
