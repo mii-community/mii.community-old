@@ -31,7 +31,6 @@
           </li>
         </ul>
       </div>
-      <p class="text-center">みぃコミュニティ</p>
       <div id="copyright" class="font-thin text-center">
         <small class="text-sm">© 2021 Tenzyu Masuda</small>
       </div>

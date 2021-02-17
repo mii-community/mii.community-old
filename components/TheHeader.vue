@@ -5,7 +5,7 @@
     >
       <h1 class="my-auto text-lg">
         <nuxt-link to="/" class="p-5" v-on:click.native="flag = false"
-          >Mii</nuxt-link
+          >みぃコミュニティ</nuxt-link
         >
       </h1>
 
