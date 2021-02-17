@@ -41,6 +41,10 @@ const histories: History[] = [
     values: ['TwitterList「みぃツイート」を公開'],
   },
   {
+    date: '2020年 9月 6日',
+    values: ['DiscordBot「Wikipedian」を公開'],
+  },
+  {
     date: '2021年 1月 10日',
     values: [
       'Website「みぃサイト(旧)」を公開',
