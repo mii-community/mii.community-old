@@ -63,11 +63,6 @@ const navs: Nav[] = [
   { url: '/dictionary/', text: 'Dictionary' },
 ]
 
-declare global {
-  interface Window {
-    windowWidth: number
-  }
-}
 export default {
   data() {
     return {
