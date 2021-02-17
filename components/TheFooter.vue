@@ -3,7 +3,7 @@
     class="h-32 flex items-center justify-center bg-white border-t text-sm"
   >
     <div class="leading-6 justify-center">
-      <div>
+      <div class="flex justify-center">
         <p class="flex">
           このサイトの問題を見つけた場合は
           <a
