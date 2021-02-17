@@ -29,7 +29,7 @@
       class="w-full h-screen fixed top-0 left-0 z-30 z-100 h-full bg-gray-700 transition ease-in-out duration-200"
       :class="{ open: flag }"
     >
-      <ul class="mx-auto mt-24 space-y-3">
+      <ul class="mx-auto mt-20 space-y-3">
         <li
           v-for="(nav, index) in navs"
           :key="index"
@@ -60,7 +60,9 @@ const navs: Nav[] = [
   { url: '/contact/', text: 'Contact' },
   { url: '/history/', text: 'History' },
   { url: '/brunches/', text: 'Brunches' },
+  { url: '/dictionary/', text: 'Dictionary' },
 ]
+
 declare global {
   interface Window {
     windowWidth: number
