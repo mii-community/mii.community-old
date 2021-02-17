@@ -23,7 +23,7 @@
         </p>
       </div>
       <div>
-        <ul class="flex justify-center">
+        <ul class="flex justify-center grid grid-cols-3 sm:grid-cols-6">
           <li class="px-2" v-for="page in my_site_maps" :key="page.text">
             <nuxt-link :to="page.to">
               <p class="text-blue-700">{{ page.text }}</p>
