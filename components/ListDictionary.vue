@@ -316,6 +316,30 @@ const dictionary: Dictionary[] = [
     mean:
       'ヤバスクリプトの派生。怪レい日本語を連発するとこう呼ばれるようになる。',
   },
+  {
+    idiom: '😂👍',
+    mean:
+      'ジョイサムズアップ。HiraginoYuki のお気に入りで、よくリアクションされる。',
+  },
+  {
+    idiom: '雪景色事件',
+    mean:
+      '一部のユーザーが白単色アイコンかつニックネームを「白」に統一した事件。文章の個性だけで乗り切ろうとしていた。が、管理者権限で戻された。',
+  },
+  {
+    idiom: 'ヌオー砲',
+    mean:
+      'メッセージのリアクションをポケモンのヌオーで埋めるもの。合図を送ると HiraginoYuki が実行する。',
+  },
+  {
+    idiom: 'React やめましょうよ〜笑',
+    mean:
+      '元素ガチャの開発中に Hirosuke が HiraginoYuki に放った言葉。ダメだ。React は勉強しろ。',
+  },
+  {
+    idiom: 'それって Vue でもできますよね？',
+    mean: '反 React 勢力(1人)の嫌がらせ。',
+  },
 ]
 import Vue from 'vue'
 import VueScrollTo from 'vue-scrollto'
