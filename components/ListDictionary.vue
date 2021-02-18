@@ -1,37 +1,46 @@
 <template>
-  <ul>
-    <li v-for="(diction, index) in dictionary" :key="index">
-      <div
-        class="flex my-auto font-bold text-lg cursor-pointer"
-        @click="
-          $copyText(
-            'https://mii.community/dictionary/#' +
-              diction.idiom.replace(/ /g, '-')
-          ),
-            afterCopy()
-        "
-      >
-        <span>-</span>
-        <h3
-          :id="diction.idiom.replace(/ /g, '-')"
-          class="-mt-16 pt-16 ml-2 text-gray-900"
+  <div>
+    <ul>
+      <li v-for="(diction, index) in dictionary" :key="index">
+        <div
+          class="flex my-auto font-bold text-lg cursor-pointer"
+          @click="
+            $copyText(
+              'https://mii.community/dictionary/#' +
+                diction.idiom.replace(/ /g, '-')
+            ),
+              afterCopy()
+          "
         >
-          {{ diction.idiom }}
-        </h3>
-        <img
-          class="my-auto ml-2 h-4 w-4"
-          src="~/assets/img/mark-link.svg"
-          alt="リンクを表しているマーク"
-        />
-      </div>
-      <h4 class="text-gray-800 mt-2">{{ diction.mean }}</h4>
-      <div
-        v-if="index != dictionary.length - 1"
-        key="not-last-child-diction"
-        class="border-t border-dotted border-gray-500 my-3"
-      ></div>
-    </li>
-  </ul>
+          <span>-</span>
+          <h3
+            :id="diction.idiom.replace(/ /g, '-')"
+            class="-mt-16 pt-16 ml-2 text-gray-900"
+          >
+            {{ diction.idiom }}
+          </h3>
+          <img
+            class="my-auto ml-2 h-4 w-4"
+            src="~/assets/img/mark-link.svg"
+            alt="リンクを表しているマーク"
+          />
+        </div>
+        <h4 class="text-gray-800 mt-2">{{ diction.mean }}</h4>
+        <div
+          v-if="index != dictionary.length - 1"
+          key="not-last-child-diction"
+          class="border-t border-dotted border-gray-500 my-3"
+        ></div>
+      </li>
+    </ul>
+    <div
+      id="notifyCopied"
+      class="fixed bottom-0 z-30 flex justify-center items-center w-32 h-8 mb-2 text-white bg-blue-300 rounded-xl shadow duration-200"
+      :class="{ show: notifyCopied }"
+    >
+      Copied!
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -315,7 +324,7 @@ Vue.use(VueScrollTo)
 
 export default Vue.extend({
   data() {
-    return { dictionary }
+    return { dictionary, notifyCopied: false }
   },
   mounted() {
     const hash = decodeURI(location.hash)
@@ -325,8 +334,27 @@ export default Vue.extend({
   },
   methods: {
     afterCopy: function () {
-      alert('Copied!')
+      if (this.notifyCopied == true) {
+        return
+      }
+      this.notifyCopied = true
+      setTimeout(this.hideNotify, 2000)
+    },
+    hideNotify() {
+      this.notifyCopied = false
     },
   },
 })
 </script>
+
+<style scoped>
+#notifyCopied {
+  opacity: 0;
+  left: calc(50% - 64px);
+  transform: translateY(100%);
+  &.show {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+</style>
