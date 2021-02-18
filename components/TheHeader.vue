@@ -1,6 +1,6 @@
 <template>
   <header class="h-16 sticky top-0 left-0 z-50">
-    <div class="flex justify-around opacity-75 bg-white border-b shadow">
+    <div class="flex h-16 justify-around opacity-75 bg-white border-b shadow">
       <h1 class="my-auto text-lg">
         <nuxt-link to="/" class="p-5" @click.native="flag = false"
           >みぃコミュニティ</nuxt-link
