@@ -206,7 +206,7 @@ const dictionary: Dictionary[] = [
       '一時期、メンバーのニックネームが○○バンで溢れたときに生まれた言葉。バンファミリーの父は 煽音バン。',
   },
   {
-    idiom: 'えろいね。─　えろくはないが。',
+    idiom: 'えろいね。─ えろくはないが。',
     mean: 'It means nothing. tenzyuしか使わない。はずだった。',
   },
   {
