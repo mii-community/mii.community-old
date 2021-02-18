@@ -2,7 +2,7 @@
   <header class="h-16 sticky top-0 left-0 z-50">
     <div class="flex justify-around opacity-75 bg-white border-b shadow">
       <h1 class="my-auto text-lg">
-        <nuxt-link to="/" class="p-5" v-on:click.native="flag = false"
+        <nuxt-link to="/" class="p-5" @click.native="flag = false"
           >みぃコミュニティ</nuxt-link
         >
       </h1>
@@ -10,7 +10,7 @@
       <button
         id="menu-toggle"
         class="p-5 focus:outline-none"
-        v-on:click="flag = !flag"
+        @click="flag = !flag"
       >
         MENU
       </button>
@@ -36,7 +36,7 @@
           <nuxt-link
             class="w-full block py-3"
             :to="nav.url"
-            v-on:click.native="flag = false"
+            @click.native="flag = false"
           >
             {{ nav.text }}
           </nuxt-link>
