@@ -18,6 +18,11 @@
         >
           {{ diction.idiom }}
         </h3>
+        <img
+          class="my-auto ml-2 h-4 w-4"
+          src="~/assets/img/mark-link.svg"
+          alt="リンクを表しているマーク"
+        />
       </div>
       <h4 class="text-gray-800 mt-2">{{ diction.mean }}</h4>
       <div
