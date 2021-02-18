@@ -8,7 +8,7 @@
             'https://mii.community/dictionary/#' +
               diction.idiom.replaceAll(' ', '-')
           ),
-            alert()
+            afterCopy()
         "
       >
         <span>-</span>
@@ -315,7 +315,7 @@ export default {
   },
 
   methods: {
-    alert: function () {
+    afterCopy: function () {
       alert('Copied!')
     },
   },
