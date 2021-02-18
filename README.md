@@ -20,9 +20,12 @@
 
 みぃコミュニティの来歴を載せているページです。
 
-### [Brunches](https://mii.community/brunches)
+### [Brunches](https://mii.community/brunches/)
 
 みぃコミュニティのサブドメイン一覧を載せているページです。
+
+### [Dictionary](https://mii.community/dictionary/)
+みぃコミュニティの慣用句や用語などを載せているページです。 
 
 <!--
 ## Build Setup
