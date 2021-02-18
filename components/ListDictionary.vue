@@ -6,14 +6,14 @@
         @click="
           $copyText(
             'https://mii.community/dictionary/#' +
-              diction.idiom.replaceAll(' ', '-')
+              diction.idiom.replace(/ /g, '-')
           ),
             afterCopy()
         "
       >
         <span>-</span>
         <h3
-          :id="diction.idiom.replaceAll(' ', '-')"
+          :id="diction.idiom.replace(/ /g, '-')"
           class="-mt-16 pt-16 ml-2 text-gray-900"
         >
           {{ diction.idiom }}
