@@ -308,16 +308,25 @@ const dictionary: Dictionary[] = [
       'ヤバスクリプトの派生。怪レい日本語を連発するとこう呼ばれるようになる。',
   },
 ]
+import Vue from 'vue'
+import VueScrollTo from 'vue-scrollto'
 
-export default {
+Vue.use(VueScrollTo)
+
+export default Vue.extend({
   data() {
     return { dictionary }
   },
-
+  mounted() {
+    const hash = decodeURI(location.hash)
+    if (hash && hash.match(/^#.+$/)) {
+      this.$scrollTo(hash)
+    }
+  },
   methods: {
     afterCopy: function () {
       alert('Copied!')
     },
   },
-}
+})
 </script>
