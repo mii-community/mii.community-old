@@ -99,6 +99,7 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/redirect-module',
     '@nuxtjs/sitemap',
+    'nuxt-clipboard2',
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
