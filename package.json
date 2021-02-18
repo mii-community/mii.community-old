@@ -40,6 +40,7 @@
     "nuxt-clipboard2": "^0.2.1",
     "prettier": "^2.2.1",
     "ts-jest": "^26.4.4",
-    "vue-jest": "^3.0.4"
+    "vue-jest": "^3.0.4",
+    "vue-scrollto": "^2.20.0"
   }
 }

@@ -6,14 +6,14 @@
         @click="
           $copyText(
             'https://mii.community/dictionary/#' +
-              diction.idiom.replaceAll(' ', '-')
+              diction.idiom.replace(/ /g, '-')
           ),
-            alert()
+            afterCopy()
         "
       >
         <span>-</span>
         <h3
-          :id="diction.idiom.replaceAll(' ', '-')"
+          :id="diction.idiom.replace(/ /g, '-')"
           class="-mt-16 pt-16 ml-2 text-gray-900"
         >
           {{ diction.idiom }}
@@ -308,16 +308,25 @@ const dictionary: Dictionary[] = [
       'ヤバスクリプトの派生。怪レい日本語を連発するとこう呼ばれるようになる。',
   },
 ]
+import Vue from 'vue'
+import VueScrollTo from 'vue-scrollto'
 
-export default {
+Vue.use(VueScrollTo)
+
+export default Vue.extend({
   data() {
     return { dictionary }
   },
-
+  mounted() {
+    const hash = decodeURI(location.hash)
+    if (hash && hash.match(/^#.+$/)) {
+      this.$scrollTo(hash)
+    }
+  },
   methods: {
-    alert: function () {
+    afterCopy: function () {
       alert('Copied!')
     },
   },
-}
+})
 </script>

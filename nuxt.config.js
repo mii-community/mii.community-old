@@ -100,6 +100,7 @@ export default {
     '@nuxtjs/redirect-module',
     '@nuxtjs/sitemap',
     'nuxt-clipboard2',
+    'vue-scrollto/nuxt',
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
