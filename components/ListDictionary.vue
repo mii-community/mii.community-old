@@ -1,9 +1,21 @@
 <template>
   <ul>
     <li v-for="(diction, index) in dictionary" :key="index">
-      <div class="flex my-auto font-bold text-lg">
+      <div
+        class="flex my-auto font-bold text-lg cursor-pointer"
+        @click="
+          $copyText(
+            'https://mii.community/dictionary/#' +
+              diction.idiom.replaceAll(' ', '-')
+          ),
+            alert()
+        "
+      >
         <span>-</span>
-        <h3 :id="diction.idiom" class="ml-2 text-gray-900">
+        <h3
+          :id="diction.idiom.replaceAll(' ', '-')"
+          class="-mt-16 pt-16 ml-2 text-gray-900"
+        >
           {{ diction.idiom }}
         </h3>
       </div>
@@ -295,6 +307,12 @@ const dictionary: Dictionary[] = [
 export default {
   data() {
     return { dictionary }
+  },
+
+  methods: {
+    alert: function () {
+      alert('Copied!')
+    },
   },
 }
 </script>
