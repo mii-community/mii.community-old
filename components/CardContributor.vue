@@ -42,6 +42,11 @@ const contributors: Contributor[] = [
     name: 'AttoCat',
     value: '「みぃ様」にPoll機能を実装',
   },
+  {
+    name: 'MogyuMogu',
+    value:
+      'DiscordServer「みぃサーバー」に TwitterList「みぃツイート」との連携機能を実装・稼働',
+  },
 ]
 
 export default {
