@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="h-32 flex items-center justify-center bg-white border-t text-sm"
+    class="h-48 sm:h-32 flex items-center justify-center bg-white border-t text-sm"
   >
     <div class="leading-6 justify-center">
       <div class="flex justify-center">
@@ -23,7 +23,7 @@
         </p>
       </div>
       <div>
-        <ul class="flex justify-center grid grid-cols-3 sm:grid-cols-6">
+        <ul class="flex justify-center grid grid-cols-3 sm:grid-cols-7">
           <li class="px-2" v-for="page in my_site_maps" :key="page.text">
             <nuxt-link :to="page.to">
               <p class="text-blue-700">{{ page.text }}</p>
@@ -51,6 +51,7 @@ const my_site_maps: mySiteMap[] = [
   { to: '/history/', text: 'history' },
   { to: '/brunches/', text: 'brunches' },
   { to: '/dictionary/', text: 'dictionary' },
+  { to: '/expenses/', text: 'expenses' },
 ]
 
 export default {

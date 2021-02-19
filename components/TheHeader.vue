@@ -27,11 +27,11 @@
       class="w-full h-screen fixed top-0 left-0 mt-16 h-full bg-gray-700 transition ease-in-out duration-200"
       :class="{ open: flag }"
     >
-      <ul class="mx-auto mt-4 space-y-3">
+      <ul class="mx-auto mt-4 space-y-2">
         <li
           v-for="(nav, index) in navs"
           :key="index"
-          class="w-1/2 md:max-w-screen-md mx-auto text-center text-gray-100 text-2xl border-b border-white duration-300"
+          class="w-1/2 md:max-w-screen-md mx-auto text-center text-gray-100 text-xl border-b border-white duration-300"
         >
           <nuxt-link
             class="w-full block py-3"
@@ -59,6 +59,7 @@ const navs: Nav[] = [
   { url: '/history/', text: 'History' },
   { url: '/brunches/', text: 'Brunches' },
   { url: '/dictionary/', text: 'Dictionary' },
+  { url: '/expenses/', text: 'Expenses' },
 ]
 
 export default {
