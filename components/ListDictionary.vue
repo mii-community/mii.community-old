@@ -35,7 +35,7 @@
     </ul>
     <div
       id="notifyCopied"
-      class="fixed bottom-0 z-30 flex justify-center items-center w-32 h-8 mb-2 text-white bg-blue-300 rounded-xl shadow duration-200"
+      class="text-lg fixed bottom-0 z-30 flex justify-center items-center w-64 h-12 mb-4 text-white bg-blue-400 rounded-xl shadow duration-200"
       :class="{ show: notifyCopied }"
     >
       Copied!
@@ -362,7 +362,7 @@ export default Vue.extend({
         return
       }
       this.notifyCopied = true
-      setTimeout(this.hideNotify, 2000)
+      setTimeout(this.hideNotify, 3000)
     },
     hideNotify() {
       this.notifyCopied = false
@@ -374,7 +374,7 @@ export default Vue.extend({
 <style scoped>
 #notifyCopied {
   opacity: 0;
-  left: calc(50% - 64px);
+  left: calc(50% - 128px);
   transform: translateY(100%);
   &.show {
     opacity: 1;
