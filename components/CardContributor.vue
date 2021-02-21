@@ -32,11 +32,12 @@ const contributors: Contributor[] = [
   },
   {
     name: 'chun37',
-    value: '「みぃ様」のコードレビュー, リファクタリング',
+    value: '「みぃ様」のコードレビュー・リファクタリング',
   },
   {
     name: 'Hirosuke',
-    value: 'DiscordBot「Wikipedian」の発案, 監督',
+    value:
+      'DiscordBot「Wikipedian」の発案・監督，ショートストーリー「みぃ小説」の寄稿。',
   },
   {
     name: 'AttoCat',
@@ -46,6 +47,14 @@ const contributors: Contributor[] = [
     name: 'MogyuMogu',
     value:
       'DiscordServer「みぃサーバー」に TwitterList「みぃツイート」との連携機能を実装・稼働',
+  },
+  {
+    name: '望月よもぎ',
+    value: '「みぃ小説」の寄稿',
+  },
+  {
+    name: 'Meow',
+    value: '「みぃ小説」の寄稿',
   },
 ]
 
