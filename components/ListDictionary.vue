@@ -158,7 +158,7 @@ const dictionary: Dictionary[] = [
   {
     idiom: 'Talse',
     mean:
-      'False の頭文字が T に置き換えられたもの。だぶん偽。発言者は HiraginoYuki',
+      'False の頭文字が T に置き換えられたもの。たぶん偽。発言者は HiraginoYuki',
   },
   {
     idiom: 'Frue',
