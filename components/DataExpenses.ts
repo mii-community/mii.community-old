@@ -30,4 +30,10 @@ export const expenses: Expense[] = [
     value: 3850,
     status: 1,
   },
+  {
+    date: '2/22',
+    desc: 'ドメイン契約: genso-gacha.com (1年間)',
+    value: 1540,
+    status: 1,
+  },
 ]
