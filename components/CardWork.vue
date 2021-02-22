@@ -1,5 +1,5 @@
 <template>
-  <ul class="md:max-w-screen-sm">
+  <ul class="md:max-w-screen-sm space-y-4">
     <li
       v-for="(work, index) in works"
       :key="index"
@@ -13,6 +13,7 @@
       >
         <div class="force-32 border-r border-gray-800">
           <img
+            class="rounded-lg p-1"
             :src="require(`~/assets/img/works/${work.img}`)"
             :alt="work.alt"
           />
@@ -53,10 +54,18 @@ const works: Work[] = [
   {
     img: '15puzzle.png',
     title: '15Puzzle',
-    description: '　最高のUXを求め続ける15パズルのウェブアプリ。',
+    description: '最高のUXを求め続ける15パズルのウェブアプリ。',
     author: 'HiraginoYuki',
     url: 'https://15-puzzle.app',
     alt: 'HiraginoYukiが作った15パズルのウェブアプリのアイコン',
+  },
+  {
+    img: 'gensogacha.png',
+    title: '元素ガチャ',
+    description: 'シビアな確率設定がリアルな体感をもたらします。',
+    author: 'Hirosuke',
+    url: 'https://genso-gacha.com',
+    alt: 'Hirosukeが作ったガチャのウェブアプリのアイコン',
   },
 ]
 

@@ -29,16 +29,16 @@
 }
 
 .force-16 {
-  min-width: 64px !important;
-  width: 64px !important;
-  min-height: 64px !important;
-  height: 64px !important;
+  min-width: 63px !important;
+  width: 63px !important;
+  min-height: 63px !important;
+  height: 63px !important;
 }
 .force-32 {
-  min-width: 128px !important;
-  width: 128px !important;
-  min-height: 128px !important;
-  height: 128px !important;
+  min-width: 127px !important;
+  width: 127px !important;
+  min-height: 127px !important;
+  height: 127px !important;
 }
 
 .font-heading {
