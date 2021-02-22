@@ -8,25 +8,25 @@ interface Expense {
 export const expenses: Expense[] = [
   {
     date: '1/17',
-    desc: 'IFTTT プロ版 (1ヶ月)',
+    desc: 'IFTTT プロ版契約 (1ヶ月)',
     value: 550,
     status: 1,
   },
   {
     date: '2/9',
-    desc: '寄付: PayPal',
+    desc: 'ドメイン契約支援: PayPal',
     value: 1000,
     status: 0,
   },
   {
     date: '2/9',
-    desc: 'Fee : PayPal',
+    desc: '手数料 : PayPal',
     value: 76,
     status: 1,
   },
   {
     date: '2/9',
-    desc: 'ドメイン代: mii.community (1年間)',
+    desc: 'ドメイン契約: mii.community (1年間)',
     value: 3850,
     status: 1,
   },
