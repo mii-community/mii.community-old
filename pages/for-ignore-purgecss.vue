@@ -1,7 +1,7 @@
 <template>
   <div class="text-center">
     <div
-      class="border-indigo-600 border-gray-900 border-blue-500 border-green-700 border-blue-600 border-pink-600 border-blue-700 hover:bg-indigo-600 hover:bg-gray-900 hover:bg-blue-500 hover:bg-green-700 hover:bg-blue-600 hover:bg-pink-600 hover:bg-blue-700"
+      class="border-indigo-600 border-gray-900 border-blue-500 border-green-700 border-blue-600 border-pink-600 border-orange-500 hover:bg-indigo-600 hover:bg-gray-900 hover:bg-blue-500 hover:bg-green-700 hover:bg-blue-600 hover:bg-pink-600 hover:bg-orange-500"
     >
       <span>ignore purgecss</span>
     </div>
