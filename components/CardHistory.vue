@@ -80,6 +80,10 @@ const histories: History[] = [
       'Twitterの公式タグを決定: #みぃコミュニティ',
     ],
   },
+  {
+    date: '2021年 2月 24日',
+    values: ['Patreon を開設'],
+  },
 ]
 
 export default {
