@@ -11,16 +11,15 @@
       </div>
 
       <div class="fade mt-6">
-        <h2 id="Donators" class="heading text-2xl mt-2 mb-3">Donators</h2>
-        <card-donator></card-donator>
+        <h2 id="Supporters" class="heading text-2xl mt-2 mb-3">Supporters</h2>
+        <list-supporters></list-supporters>
         <h2 id="Contributors" class="heading text-2xl mt-6 mb-3">
           Contributors
         </h2>
         <card-contributor></card-contributor>
         <div class="mt-8 mb-4 pl-4 border-l-2 border-gray-600">
           <p>
-            Donators
-            には、みぃコミュニティにまとまった金額を寄付してくださった方の
+            Supporters には、みぃコミュニティを金銭的に支援してくださった方の
             名前と一言コメント を載せています。
           </p>
           <p>

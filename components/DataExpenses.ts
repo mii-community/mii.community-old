@@ -36,4 +36,16 @@ export const expenses: Expense[] = [
     value: 1540,
     status: 1,
   },
+  {
+    date: '2/23',
+    desc: 'ドメイン契約支援: PayPal',
+    value: 4000,
+    status: 0,
+  },
+  {
+    date: '2/23',
+    desc: '手数料: PayPal',
+    value: 184,
+    status: 1,
+  },
 ]
