@@ -35,7 +35,7 @@
     </ul>
     <div
       id="notifyCopied"
-      class="text-lg fixed bottom-0 z-30 flex justify-center items-center w-64 h-12 mb-4 text-white bg-blue-400 rounded-xl shadow duration-200"
+      class="text-lg fixed bottom-0 z-30 flex justify-center items-center w-64 h-12 mb-4 text-white bg-blue-500 rounded-xl shadow duration-200"
       :class="{ show: notifyCopied }"
     >
       Copied!
