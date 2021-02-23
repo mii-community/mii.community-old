@@ -52,23 +52,23 @@ const connects: Connect[] = [
   {
     url: 'https://twitter.com/tenzyumasuda',
     img: 'icon-twitter',
-    alt: 'Twitterの白黒の丸型アイコン',
+    alt: 'Twitter の白黒の丸型アイコン',
     text: 'Twitter',
     color: 'blue-600',
   },
   {
     url: 'https://instagram.com/tenzyumasuda',
     img: 'icon-instagram',
-    alt: 'Istagramの白黒の丸型アイコン',
+    alt: 'Istagram の白黒の丸型アイコン',
     text: 'Instagram',
     color: 'pink-600',
   },
   {
-    url: 'https://www.paypal.me/masudatenzyu',
-    img: 'icon-paypal',
-    alt: 'PayPalの白黒の丸型アイコン',
-    text: 'PayPal (Donate)',
-    color: 'blue-700',
+    url: 'https://www.patreon.com/tenzyu',
+    img: 'icon-patreon',
+    alt: 'Patreon の白黒の丸型アイコン',
+    text: 'Patreon',
+    color: 'orange-500',
   },
 ]
 import { MetaType } from '~/utils/types'

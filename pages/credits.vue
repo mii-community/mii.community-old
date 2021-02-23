@@ -19,7 +19,8 @@
         <card-contributor></card-contributor>
         <div class="mt-8 mb-4 pl-4 border-l-2 border-gray-600">
           <p>
-            Supporters には、みぃコミュニティを金銭的に支援してくださった方の
+            Supporters には、Patreon
+            などでみぃコミュニティを金銭的に支援してくださった方の
             名前と一言コメント を載せています。
           </p>
           <p>
