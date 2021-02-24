@@ -16,7 +16,7 @@
         <h2 id="Contributors" class="heading text-2xl mt-6 mb-3">
           Contributors
         </h2>
-        <card-contributor></card-contributor>
+        <list-contributors></list-contributors>
         <div class="mt-8 mb-4 pl-4 border-l-2 border-gray-600">
           <p>
             Supporters には、Patreon
