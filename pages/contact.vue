@@ -63,13 +63,6 @@ const connects: Connect[] = [
     text: 'Instagram',
     color: 'pink-600',
   },
-  {
-    url: 'https://www.patreon.com/tenzyu',
-    img: 'icon-patreon',
-    alt: 'Patreon の白黒の丸型アイコン',
-    text: 'Patreon',
-    color: 'orange-500',
-  },
 ]
 import { MetaType } from '~/utils/types'
 import MetaCurrentPage from '~/utils/meta'

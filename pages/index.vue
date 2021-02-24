@@ -46,41 +46,39 @@ interface Link {
 
 const links: Link[] = [
   {
-    url: 'https://discord.gg/Jqsd7VcDur',
+    url: 'https://invite.mii.community',
     img: 'icon-discord',
     alt: 'Discordの白黒の丸型アイコン',
     text: 'Join Our Place',
     color: 'indigo-600',
   },
   {
-    url: 'https://github.com/mii-community',
+    url: 'https://open.mii.community/github',
     img: 'icon-github',
     alt: 'GitHubの白黒の丸型アイコン',
     text: 'Read Our Codes',
     color: 'gray-900',
   },
   {
-    url: 'https://twitter.com/i/lists/1293148576634114049',
+    url: 'https://open.mii.community/tweets',
     img: 'icon-twitter',
     alt: 'Twitterの白黒の丸型アイコン',
     text: 'See Our Tweets',
     color: 'blue-500',
   },
   {
-    url:
-      'https://open.spotify.com/playlist/0nS5HXPdDe3RBGHshYpOp4?si=9L3X88gjQlK99KRDyDrdEA',
-    img: 'icon-spotify',
-    alt: 'Spotifyの白黒の丸型アイコン',
-    text: 'Hear Our Favorites',
-    color: 'green-700',
+    url: 'https://open.mii.community/scrapbox',
+    img: 'icon-scrapbox',
+    alt: 'Scrapboxの白黒の丸型アイコン',
+    text: 'View Our Notes',
+    color: 'green-500',
   },
   {
-    url:
-      'https://calendar.google.com/calendar/u/1?cid=N25mZW1hc3Z2OXBncjJlbmVtOGw0MDVmZmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ',
-    img: 'icon-calendar',
-    alt: 'カレンダーの白黒の丸型アイコン',
-    text: 'Check Our Events',
-    color: 'blue-600',
+    url: 'https://open.mii.community/patreon',
+    img: 'icon-patreon',
+    alt: 'Patreon の白黒の丸型アイコン',
+    text: 'Support Mii Community',
+    color: 'orange-500',
   },
 ]
 
