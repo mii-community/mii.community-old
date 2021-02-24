@@ -14,7 +14,7 @@
       >
         MENU
       </button>
-      <nav id="nav-in-header" class="hidden my-auto w-2/3 max-w-screen-md">
+      <nav id="nav-in-header" class="hidden my-auto w-3/4 max-w-screen-md">
         <ul class="flex justify-around text-sm">
           <li v-for="(nav, index) in navs" :key="index">
             <nuxt-link :to="nav.url" class="py-5">{{ nav.text }}</nuxt-link>
@@ -34,7 +34,7 @@
           class="w-1/2 md:max-w-screen-md mx-auto text-center text-gray-100 text-xl border-b border-white duration-300"
         >
           <nuxt-link
-            class="w-full block py-3"
+            class="w-full block py-2"
             :to="nav.url"
             @click.native="flag = false"
           >
@@ -60,6 +60,7 @@ const navs: Nav[] = [
   { url: '/brunches/', text: 'Brunches' },
   { url: '/dictionary/', text: 'Dictionary' },
   { url: '/expenses/', text: 'Expenses' },
+  { url: '/links/', text: 'Links' },
 ]
 
 export default {
