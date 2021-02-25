@@ -27,6 +27,11 @@
 ### [Dictionary](https://mii.community/dictionary/)
 みぃコミュニティの慣用句や用語などを載せているページです。 
 
+### [Expenses](https://mii.community/expenses/)
+みぃコミュニティのお金について載せているページです。
+
+### [Links](https://mii.community/links/)
+みぃコミュニティの関連リンクを載せているページです。
 <!--
 ## Build Setup
 
