@@ -12,7 +12,7 @@ export const contributors: Contributor[] = [
     name: 'Kesigomon',
     values: [
       'MinecraftServer「みぃクラフト」のホスト',
-      'DiscordServer「みぃサーバー」に役職セーブ機能を実装・稼働',
+      '「みぃ様」にディスコードロールのセーブ機能を実装',
     ],
   },
   {
@@ -33,7 +33,7 @@ export const contributors: Contributor[] = [
   {
     name: 'MogyuMogu',
     values: [
-      '「みぃサーバー」に TwitterList「みぃツイート」との連携機能を実装・稼働',
+      'DiscordServer「みぃサーバー」に TwitterList「みぃツイート」との連携機能を実装・稼働',
     ],
   },
   {
