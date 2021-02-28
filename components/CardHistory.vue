@@ -82,7 +82,7 @@ const histories: History[] = [
   },
   {
     date: '2021年 2月 24日',
-    values: ['Patreon を開設'],
+    values: ['Patreon を設置', 'Scrapbox を設置'],
   },
 ]
 
