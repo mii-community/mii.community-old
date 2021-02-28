@@ -12,7 +12,7 @@
 
       <div class="container fade">
         <h2 class="heading my-6">みぃコミュニティの来歴</h2>
-        <card-history></card-history>
+        <list-history></list-history>
       </div>
     </main>
   </div>

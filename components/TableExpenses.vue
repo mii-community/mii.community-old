@@ -31,7 +31,7 @@
 </template>
 
 <script lang="ts">
-import { expenses } from '~/components/DataExpenses'
+import { expenses } from '~/data/expenses'
 
 export default {
   data() {

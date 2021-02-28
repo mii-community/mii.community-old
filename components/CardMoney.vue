@@ -8,7 +8,7 @@
 </template>
 
 <script lang="ts">
-import { expenses } from '~/components/DataExpenses'
+import { expenses } from '~/data/expenses'
 
 var totalIncome = 0
 var totalExpenditures = 0
