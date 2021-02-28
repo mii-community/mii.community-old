@@ -12,7 +12,7 @@ export const contributors: Contributor[] = [
     name: 'Kesigomon',
     values: [
       'MinecraftServer「みぃクラフト」のホスト',
-      '「みぃ様」にディスコードロールのセーブ機能を実装',
+      '「みぃ様」に Discord のロールのセーブ機能を実装',
     ],
   },
   {
@@ -23,7 +23,7 @@ export const contributors: Contributor[] = [
     name: 'Hirosuke',
     values: [
       'DiscordBot「Wikipedian」の発案・監督',
-      'ショートストーリー「みぃ小説」の寄稿。',
+      'ショートストーリー「みぃ小説」の寄稿',
     ],
   },
   {
