@@ -31,7 +31,7 @@ export const contributors: Contributor[] = [
     values: ['「みぃ様」に Poll 機能を実装'],
   },
   {
-    name: 'MogyuMogu',
+    name: 'Mogyuchi',
     values: [
       'DiscordServer「みぃサーバー」に TwitterList「みぃツイート」との連携機能を実装・稼働',
     ],
