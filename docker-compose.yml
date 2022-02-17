@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  mii-community:
+    container_name: mii-community
+    build: .
+    working-dir:
+      /home/node/app
+    command: npm run start
+    restart: always
