@@ -3,8 +3,8 @@ version: '3'
 services:
   mii-community:
     container_name: mii-community
-    build: .
-    working-dir:
-      /home/node/app
+    volumes:
+      - /home/deploy/mii-community:/code
+    working-dir: /code
     command: npm run start
     restart: always
