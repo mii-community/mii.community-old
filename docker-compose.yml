@@ -3,6 +3,7 @@ version: '3'
 services:
   mii-community:
     container_name: mii-community
+    image: node
     volumes:
       - /home/deploy/mii-community:/code
     working_dir: /code
