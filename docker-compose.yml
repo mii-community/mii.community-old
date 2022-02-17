@@ -5,6 +5,6 @@ services:
     container_name: mii-community
     volumes:
       - /home/deploy/mii-community:/code
-    working-dir: /code
+    working_dir: /code
     command: npm run start
     restart: always
